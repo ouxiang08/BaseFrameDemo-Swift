@@ -16,6 +16,19 @@
 		BF131EBC1FE39D6F006FEA5A /* BaseFrameDemo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EBB1FE39D6F006FEA5A /* BaseFrameDemo_SwiftTests.swift */; };
 		BF131EC71FE39D70006FEA5A /* BaseFrameDemo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EC61FE39D6F006FEA5A /* BaseFrameDemo_SwiftUITests.swift */; };
 		BF131ED51FE3A268006FEA5A /* BFSTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131ED41FE3A268006FEA5A /* BFSTemplateViewController.swift */; };
+		BF131EDB1FE3AE21006FEA5A /* Chats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF131EDA1FE3AE21006FEA5A /* Chats.storyboard */; };
+		BF131EDD1FE3AE58006FEA5A /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF131EDC1FE3AE58006FEA5A /* Contacts.storyboard */; };
+		BF131EDF1FE3AE6F006FEA5A /* Feeds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF131EDE1FE3AE6F006FEA5A /* Feeds.storyboard */; };
+		BF131EE11FE3AE82006FEA5A /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF131EE01FE3AE82006FEA5A /* Discover.storyboard */; };
+		BF131EE31FE3AEA7006FEA5A /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF131EE21FE3AEA7006FEA5A /* Profile.storyboard */; };
+		BF131EE61FE3B090006FEA5A /* BFSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EE51FE3B090006FEA5A /* BFSViewController.swift */; };
+		BF131EE91FE3B0C6006FEA5A /* BFSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EE71FE3B0C6006FEA5A /* BFSNavigationController.swift */; };
+		BF131EEA1FE3B0C6006FEA5A /* BSWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EE81FE3B0C6006FEA5A /* BSWTabBarController.swift */; };
+		BF131EEC1FE3B104006FEA5A /* BFSChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EEB1FE3B104006FEA5A /* BFSChatsViewController.swift */; };
+		BF131EEE1FE3BFAE006FEA5A /* BFSFeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EED1FE3BFAE006FEA5A /* BFSFeedsViewController.swift */; };
+		BF131EF01FE3BFD1006FEA5A /* BFSContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EEF1FE3BFD1006FEA5A /* BFSContactsViewController.swift */; };
+		BF131EF21FE3CEEC006FEA5A /* BFSDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EF11FE3CEEC006FEA5A /* BFSDiscoverViewController.swift */; };
+		BF131EF41FE3CF05006FEA5A /* BFSProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EF31FE3CF05006FEA5A /* BFSProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,19 @@
 		BF131EC61FE39D6F006FEA5A /* BaseFrameDemo_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFrameDemo_SwiftUITests.swift; sourceTree = "<group>"; };
 		BF131EC81FE39D70006FEA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF131ED41FE3A268006FEA5A /* BFSTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSTemplateViewController.swift; sourceTree = "<group>"; };
+		BF131EDA1FE3AE21006FEA5A /* Chats.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chats.storyboard; sourceTree = "<group>"; };
+		BF131EDC1FE3AE58006FEA5A /* Contacts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contacts.storyboard; sourceTree = "<group>"; };
+		BF131EDE1FE3AE6F006FEA5A /* Feeds.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feeds.storyboard; sourceTree = "<group>"; };
+		BF131EE01FE3AE82006FEA5A /* Discover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		BF131EE21FE3AEA7006FEA5A /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		BF131EE51FE3B090006FEA5A /* BFSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSViewController.swift; sourceTree = "<group>"; };
+		BF131EE71FE3B0C6006FEA5A /* BFSNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFSNavigationController.swift; sourceTree = "<group>"; };
+		BF131EE81FE3B0C6006FEA5A /* BSWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSWTabBarController.swift; sourceTree = "<group>"; };
+		BF131EEB1FE3B104006FEA5A /* BFSChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSChatsViewController.swift; sourceTree = "<group>"; };
+		BF131EED1FE3BFAE006FEA5A /* BFSFeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSFeedsViewController.swift; sourceTree = "<group>"; };
+		BF131EEF1FE3BFD1006FEA5A /* BFSContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSContactsViewController.swift; sourceTree = "<group>"; };
+		BF131EF11FE3CEEC006FEA5A /* BFSDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSDiscoverViewController.swift; sourceTree = "<group>"; };
+		BF131EF31FE3CF05006FEA5A /* BFSProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +127,21 @@
 		BF131EA21FE39D6F006FEA5A /* BaseFrameDemo-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				BF131EE41FE3B070006FEA5A /* General */,
 				BF131EA31FE39D6F006FEA5A /* AppDelegate.swift */,
 				BF131EA51FE39D6F006FEA5A /* ViewController.swift */,
+				BF131EEB1FE3B104006FEA5A /* BFSChatsViewController.swift */,
 				BF131ED41FE3A268006FEA5A /* BFSTemplateViewController.swift */,
+				BF131EED1FE3BFAE006FEA5A /* BFSFeedsViewController.swift */,
+				BF131EEF1FE3BFD1006FEA5A /* BFSContactsViewController.swift */,
+				BF131EF11FE3CEEC006FEA5A /* BFSDiscoverViewController.swift */,
+				BF131EF31FE3CF05006FEA5A /* BFSProfileViewController.swift */,
 				BF131EA71FE39D6F006FEA5A /* Main.storyboard */,
+				BF131EE21FE3AEA7006FEA5A /* Profile.storyboard */,
+				BF131EDC1FE3AE58006FEA5A /* Contacts.storyboard */,
+				BF131EDE1FE3AE6F006FEA5A /* Feeds.storyboard */,
+				BF131EE01FE3AE82006FEA5A /* Discover.storyboard */,
+				BF131EDA1FE3AE21006FEA5A /* Chats.storyboard */,
 				BF131EAD1FE39D6F006FEA5A /* Assets.xcassets */,
 				BF131EAF1FE39D6F006FEA5A /* LaunchScreen.storyboard */,
 				BF131EB21FE39D6F006FEA5A /* Info.plist */,
@@ -129,6 +166,16 @@
 				BF131EC81FE39D70006FEA5A /* Info.plist */,
 			);
 			path = "BaseFrameDemo-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		BF131EE41FE3B070006FEA5A /* General */ = {
+			isa = PBXGroup;
+			children = (
+				BF131EE71FE3B0C6006FEA5A /* BFSNavigationController.swift */,
+				BF131EE81FE3B0C6006FEA5A /* BSWTabBarController.swift */,
+				BF131EE51FE3B090006FEA5A /* BFSViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +285,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF131EDF1FE3AE6F006FEA5A /* Feeds.storyboard in Resources */,
 				BF131EB11FE39D6F006FEA5A /* LaunchScreen.storyboard in Resources */,
+				BF131EE31FE3AEA7006FEA5A /* Profile.storyboard in Resources */,
 				BF131EAE1FE39D6F006FEA5A /* Assets.xcassets in Resources */,
+				BF131EDD1FE3AE58006FEA5A /* Contacts.storyboard in Resources */,
+				BF131EDB1FE3AE21006FEA5A /* Chats.storyboard in Resources */,
+				BF131EE11FE3AE82006FEA5A /* Discover.storyboard in Resources */,
 				BF131EA91FE39D6F006FEA5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,9 +318,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF131ED51FE3A268006FEA5A /* BFSTemplateViewController.swift in Sources */,
+				BF131EEE1FE3BFAE006FEA5A /* BFSFeedsViewController.swift in Sources */,
+				BF131EF21FE3CEEC006FEA5A /* BFSDiscoverViewController.swift in Sources */,
 				BF131EAC1FE39D6F006FEA5A /* BaseFrameDemo_Swift.xcdatamodeld in Sources */,
+				BF131EF41FE3CF05006FEA5A /* BFSProfileViewController.swift in Sources */,
+				BF131EF01FE3BFD1006FEA5A /* BFSContactsViewController.swift in Sources */,
 				BF131EA61FE39D6F006FEA5A /* ViewController.swift in Sources */,
 				BF131EA41FE39D6F006FEA5A /* AppDelegate.swift in Sources */,
+				BF131EEC1FE3B104006FEA5A /* BFSChatsViewController.swift in Sources */,
+				BF131EE61FE3B090006FEA5A /* BFSViewController.swift in Sources */,
+				BF131EEA1FE3B0C6006FEA5A /* BSWTabBarController.swift in Sources */,
+				BF131EE91FE3B0C6006FEA5A /* BFSNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +497,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JQ6468P68F;
 				INFOPLIST_FILE = "BaseFrameDemo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jimmy.BaseFrameDemo-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,6 +513,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JQ6468P68F;
 				INFOPLIST_FILE = "BaseFrameDemo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jimmy.BaseFrameDemo-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
