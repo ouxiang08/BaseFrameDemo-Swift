@@ -15,6 +15,7 @@
 		BF131EB11FE39D6F006FEA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF131EAF1FE39D6F006FEA5A /* LaunchScreen.storyboard */; };
 		BF131EBC1FE39D6F006FEA5A /* BaseFrameDemo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EBB1FE39D6F006FEA5A /* BaseFrameDemo_SwiftTests.swift */; };
 		BF131EC71FE39D70006FEA5A /* BaseFrameDemo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EC61FE39D6F006FEA5A /* BaseFrameDemo_SwiftUITests.swift */; };
+		BF131ED51FE3A268006FEA5A /* BFSTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131ED41FE3A268006FEA5A /* BFSTemplateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BF131EC21FE39D6F006FEA5A /* BaseFrameDemo-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BaseFrameDemo-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF131EC61FE39D6F006FEA5A /* BaseFrameDemo_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFrameDemo_SwiftUITests.swift; sourceTree = "<group>"; };
 		BF131EC81FE39D70006FEA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF131ED41FE3A268006FEA5A /* BFSTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSTemplateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				BF131EA31FE39D6F006FEA5A /* AppDelegate.swift */,
 				BF131EA51FE39D6F006FEA5A /* ViewController.swift */,
+				BF131ED41FE3A268006FEA5A /* BFSTemplateViewController.swift */,
 				BF131EA71FE39D6F006FEA5A /* Main.storyboard */,
 				BF131EAD1FE39D6F006FEA5A /* Assets.xcassets */,
 				BF131EAF1FE39D6F006FEA5A /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF131ED51FE3A268006FEA5A /* BFSTemplateViewController.swift in Sources */,
 				BF131EAC1FE39D6F006FEA5A /* BaseFrameDemo_Swift.xcdatamodeld in Sources */,
 				BF131EA61FE39D6F006FEA5A /* ViewController.swift in Sources */,
 				BF131EA41FE39D6F006FEA5A /* AppDelegate.swift in Sources */,

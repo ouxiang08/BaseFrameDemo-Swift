@@ -1,24 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0ir-Ab-MeR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Contacts-->
+        <scene sceneID="gk3-LF-vVB">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="rQF-at-9Qd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ahI-g5-y6E">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="jV2-Bm-BHB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="icon_contact" id="aGm-n9-dDe">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="icon_contact_active"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9St-Zc-voP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1087" y="1119"/>
+        </scene>
+        <!--Chats-->
+        <scene sceneID="1Rp-YL-peZ">
+            <objects>
+                <viewController id="9wK-9D-EaU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o9A-D0-j92">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="nk9-qr-fF2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chats" image="icon_chat" id="czM-7r-IQc">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="icon_chats_active"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n1q-Ym-lF5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1823" y="1119"/>
+        </scene>
+        <!--Discover-->
+        <scene sceneID="xXP-4o-Eoq">
+            <objects>
+                <viewController id="7Gx-3J-qj5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FO2-iS-5iK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="I1K-Ky-FjU"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Discover" image="icon_discover" id="Mzy-Gh-ejq">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="icon_discover_active"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bcj-Rg-Bjf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="414" y="1119"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="hXn-FC-B9D">
+            <objects>
+                <viewController id="p52-Qp-SF7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Xg-Ie-Rtf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="QNO-Yh-8Hn"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="icon_profile" id="keD-60-PWU">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="icon_profile_active"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HtA-oP-Evf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1151" y="1119"/>
+        </scene>
+        <!--Feeds-->
+        <scene sceneID="6Zn-Sw-cur">
+            <objects>
+                <viewController id="yRz-Di-WoO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="onn-Rv-iwP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="m5T-QS-Bqp"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Feeds" image="icon_feeds" id="BBm-69-R2q">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="icon_feeds_active"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="60b-sl-dPa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-316" y="1119"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="NML-BU-x6k">
+            <objects>
+                <tabBarController id="0ir-Ab-MeR" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uuN-0e-YMN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9wK-9D-EaU" kind="relationship" relationship="viewControllers" id="KrJ-d0-G5n"/>
+                        <segue destination="rQF-at-9Qd" kind="relationship" relationship="viewControllers" id="4AZ-H6-Rd4"/>
+                        <segue destination="yRz-Di-WoO" kind="relationship" relationship="viewControllers" id="tDs-7P-1Oh"/>
+                        <segue destination="7Gx-3J-qj5" kind="relationship" relationship="viewControllers" id="lBv-7L-vl6"/>
+                        <segue destination="p52-Qp-SF7" kind="relationship" relationship="viewControllers" id="Nck-lX-jlq"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N1Y-hh-G8Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-316" y="143"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_chat" width="30" height="30"/>
+        <image name="icon_chats_active" width="16" height="16"/>
+        <image name="icon_contact" width="30" height="30"/>
+        <image name="icon_contact_active" width="30" height="30"/>
+        <image name="icon_discover" width="30" height="30"/>
+        <image name="icon_discover_active" width="30" height="30"/>
+        <image name="icon_feeds" width="30" height="30"/>
+        <image name="icon_feeds_active" width="30" height="30"/>
+        <image name="icon_profile" width="30" height="30"/>
+        <image name="icon_profile_active" width="30" height="30"/>
+    </resources>
 </document>
