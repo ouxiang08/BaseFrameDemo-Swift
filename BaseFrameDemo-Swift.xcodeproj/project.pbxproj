@@ -29,6 +29,38 @@
 		BF131EF01FE3BFD1006FEA5A /* BFSContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EEF1FE3BFD1006FEA5A /* BFSContactsViewController.swift */; };
 		BF131EF21FE3CEEC006FEA5A /* BFSDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EF11FE3CEEC006FEA5A /* BFSDiscoverViewController.swift */; };
 		BF131EF41FE3CF05006FEA5A /* BFSProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF131EF31FE3CF05006FEA5A /* BFSProfileViewController.swift */; };
+		BFF4B84C1FEA6B6D000890BF /* DatePickerController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B83C1FEA6B65000890BF /* DatePickerController.storyboard */; };
+		BFF4B84D1FEA6B6D000890BF /* TextFieldViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B83D1FEA6B65000890BF /* TextFieldViewController.storyboard */; };
+		BFF4B84E1FEA6B6D000890BF /* TextViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B83E1FEA6B66000890BF /* TextViewController.storyboard */; };
+		BFF4B84F1FEA6B6D000890BF /* StackViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B83F1FEA6B66000890BF /* StackViewController.storyboard */; };
+		BFF4B8501FEA6B6D000890BF /* PickerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B8401FEA6B67000890BF /* PickerViewController.storyboard */; };
+		BFF4B8511FEA6B6D000890BF /* SliderViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B8411FEA6B67000890BF /* SliderViewController.storyboard */; };
+		BFF4B8521FEA6B6D000890BF /* ActivityIndicatorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B8421FEA6B68000890BF /* ActivityIndicatorViewController.storyboard */; };
+		BFF4B8531FEA6B6D000890BF /* SegmentedControlViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B8431FEA6B68000890BF /* SegmentedControlViewController.storyboard */; };
+		BFF4B8541FEA6B6D000890BF /* AlertControllerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B8441FEA6B69000890BF /* AlertControllerViewController.storyboard */; };
+		BFF4B8551FEA6B6D000890BF /* ProgressViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B8451FEA6B69000890BF /* ProgressViewController.storyboard */; };
+		BFF4B8561FEA6B6D000890BF /* ButtonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B8461FEA6B6A000890BF /* ButtonViewController.storyboard */; };
+		BFF4B8571FEA6B6D000890BF /* ImageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B8471FEA6B6A000890BF /* ImageViewController.storyboard */; };
+		BFF4B8581FEA6B6D000890BF /* WebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B8481FEA6B6B000890BF /* WebViewController.storyboard */; };
+		BFF4B8591FEA6B6D000890BF /* StepperViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B8491FEA6B6B000890BF /* StepperViewController.storyboard */; };
+		BFF4B85A1FEA6B6D000890BF /* PageControlViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B84A1FEA6B6C000890BF /* PageControlViewController.storyboard */; };
+		BFF4B85B1FEA6B6D000890BF /* SwitchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4B84B1FEA6B6C000890BF /* SwitchViewController.storyboard */; };
+		BFF4B86C1FEA6BB3000890BF /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B85C1FEA6BAC000890BF /* PickerViewController.swift */; };
+		BFF4B86D1FEA6BB3000890BF /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B85D1FEA6BAD000890BF /* StackViewController.swift */; };
+		BFF4B86E1FEA6BB3000890BF /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B85E1FEA6BAD000890BF /* SwitchViewController.swift */; };
+		BFF4B86F1FEA6BB3000890BF /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B85F1FEA6BAE000890BF /* StepperViewController.swift */; };
+		BFF4B8701FEA6BB3000890BF /* AlertControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B8601FEA6BAE000890BF /* AlertControllerViewController.swift */; };
+		BFF4B8711FEA6BB3000890BF /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B8611FEA6BAF000890BF /* TextFieldViewController.swift */; };
+		BFF4B8721FEA6BB3000890BF /* DatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B8621FEA6BAF000890BF /* DatePickerController.swift */; };
+		BFF4B8731FEA6BB3000890BF /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B8631FEA6BB0000890BF /* ImageViewController.swift */; };
+		BFF4B8741FEA6BB3000890BF /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B8641FEA6BB0000890BF /* WebViewController.swift */; };
+		BFF4B8751FEA6BB3000890BF /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B8651FEA6BB1000890BF /* PageControlViewController.swift */; };
+		BFF4B8761FEA6BB3000890BF /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B8661FEA6BB1000890BF /* ProgressViewController.swift */; };
+		BFF4B8771FEA6BB3000890BF /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B8671FEA6BB1000890BF /* SliderViewController.swift */; };
+		BFF4B8781FEA6BB3000890BF /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B8681FEA6BB2000890BF /* ActivityIndicatorViewController.swift */; };
+		BFF4B8791FEA6BB3000890BF /* SegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B8691FEA6BB2000890BF /* SegmentedControlViewController.swift */; };
+		BFF4B87A1FEA6BB3000890BF /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B86A1FEA6BB2000890BF /* TextViewController.swift */; };
+		BFF4B87B1FEA6BB3000890BF /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4B86B1FEA6BB3000890BF /* ButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +109,38 @@
 		BF131EEF1FE3BFD1006FEA5A /* BFSContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSContactsViewController.swift; sourceTree = "<group>"; };
 		BF131EF11FE3CEEC006FEA5A /* BFSDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSDiscoverViewController.swift; sourceTree = "<group>"; };
 		BF131EF31FE3CF05006FEA5A /* BFSProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSProfileViewController.swift; sourceTree = "<group>"; };
+		BFF4B83C1FEA6B65000890BF /* DatePickerController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DatePickerController.storyboard; sourceTree = "<group>"; };
+		BFF4B83D1FEA6B65000890BF /* TextFieldViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextFieldViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B83E1FEA6B66000890BF /* TextViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B83F1FEA6B66000890BF /* StackViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StackViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B8401FEA6B67000890BF /* PickerViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PickerViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B8411FEA6B67000890BF /* SliderViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SliderViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B8421FEA6B68000890BF /* ActivityIndicatorViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ActivityIndicatorViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B8431FEA6B68000890BF /* SegmentedControlViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SegmentedControlViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B8441FEA6B69000890BF /* AlertControllerViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlertControllerViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B8451FEA6B69000890BF /* ProgressViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProgressViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B8461FEA6B6A000890BF /* ButtonViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ButtonViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B8471FEA6B6A000890BF /* ImageViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ImageViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B8481FEA6B6B000890BF /* WebViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WebViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B8491FEA6B6B000890BF /* StepperViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StepperViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B84A1FEA6B6C000890BF /* PageControlViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PageControlViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B84B1FEA6B6C000890BF /* SwitchViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SwitchViewController.storyboard; sourceTree = "<group>"; };
+		BFF4B85C1FEA6BAC000890BF /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		BFF4B85D1FEA6BAD000890BF /* StackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		BFF4B85E1FEA6BAD000890BF /* SwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		BFF4B85F1FEA6BAE000890BF /* StepperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
+		BFF4B8601FEA6BAE000890BF /* AlertControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertControllerViewController.swift; sourceTree = "<group>"; };
+		BFF4B8611FEA6BAF000890BF /* TextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		BFF4B8621FEA6BAF000890BF /* DatePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerController.swift; sourceTree = "<group>"; };
+		BFF4B8631FEA6BB0000890BF /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		BFF4B8641FEA6BB0000890BF /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		BFF4B8651FEA6BB1000890BF /* PageControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
+		BFF4B8661FEA6BB1000890BF /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		BFF4B8671FEA6BB1000890BF /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		BFF4B8681FEA6BB2000890BF /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		BFF4B8691FEA6BB2000890BF /* SegmentedControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlViewController.swift; sourceTree = "<group>"; };
+		BFF4B86A1FEA6BB2000890BF /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		BFF4B86B1FEA6BB3000890BF /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +191,7 @@
 		BF131EA21FE39D6F006FEA5A /* BaseFrameDemo-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				BFF4B83A1FEA6B23000890BF /* SkillTree */,
 				BF131EE41FE3B070006FEA5A /* General */,
 				BF131EA31FE39D6F006FEA5A /* AppDelegate.swift */,
 				BF131EA51FE39D6F006FEA5A /* ViewController.swift */,
@@ -176,6 +241,53 @@
 				BF131EE51FE3B090006FEA5A /* BFSViewController.swift */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		BFF4B83A1FEA6B23000890BF /* SkillTree */ = {
+			isa = PBXGroup;
+			children = (
+				BFF4B83B1FEA6B23000890BF /* UIKit */,
+			);
+			path = SkillTree;
+			sourceTree = "<group>";
+		};
+		BFF4B83B1FEA6B23000890BF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BFF4B8681FEA6BB2000890BF /* ActivityIndicatorViewController.swift */,
+				BFF4B8601FEA6BAE000890BF /* AlertControllerViewController.swift */,
+				BFF4B86B1FEA6BB3000890BF /* ButtonViewController.swift */,
+				BFF4B8621FEA6BAF000890BF /* DatePickerController.swift */,
+				BFF4B8631FEA6BB0000890BF /* ImageViewController.swift */,
+				BFF4B8651FEA6BB1000890BF /* PageControlViewController.swift */,
+				BFF4B85C1FEA6BAC000890BF /* PickerViewController.swift */,
+				BFF4B8661FEA6BB1000890BF /* ProgressViewController.swift */,
+				BFF4B8691FEA6BB2000890BF /* SegmentedControlViewController.swift */,
+				BFF4B8671FEA6BB1000890BF /* SliderViewController.swift */,
+				BFF4B85D1FEA6BAD000890BF /* StackViewController.swift */,
+				BFF4B85F1FEA6BAE000890BF /* StepperViewController.swift */,
+				BFF4B85E1FEA6BAD000890BF /* SwitchViewController.swift */,
+				BFF4B8611FEA6BAF000890BF /* TextFieldViewController.swift */,
+				BFF4B86A1FEA6BB2000890BF /* TextViewController.swift */,
+				BFF4B8641FEA6BB0000890BF /* WebViewController.swift */,
+				BFF4B8421FEA6B68000890BF /* ActivityIndicatorViewController.storyboard */,
+				BFF4B8441FEA6B69000890BF /* AlertControllerViewController.storyboard */,
+				BFF4B8461FEA6B6A000890BF /* ButtonViewController.storyboard */,
+				BFF4B83C1FEA6B65000890BF /* DatePickerController.storyboard */,
+				BFF4B8471FEA6B6A000890BF /* ImageViewController.storyboard */,
+				BFF4B84A1FEA6B6C000890BF /* PageControlViewController.storyboard */,
+				BFF4B8401FEA6B67000890BF /* PickerViewController.storyboard */,
+				BFF4B8451FEA6B69000890BF /* ProgressViewController.storyboard */,
+				BFF4B8431FEA6B68000890BF /* SegmentedControlViewController.storyboard */,
+				BFF4B8411FEA6B67000890BF /* SliderViewController.storyboard */,
+				BFF4B83F1FEA6B66000890BF /* StackViewController.storyboard */,
+				BFF4B8491FEA6B6B000890BF /* StepperViewController.storyboard */,
+				BFF4B84B1FEA6B6C000890BF /* SwitchViewController.storyboard */,
+				BFF4B83D1FEA6B65000890BF /* TextFieldViewController.storyboard */,
+				BFF4B83E1FEA6B66000890BF /* TextViewController.storyboard */,
+				BFF4B8481FEA6B6B000890BF /* WebViewController.storyboard */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,13 +398,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF131EDF1FE3AE6F006FEA5A /* Feeds.storyboard in Resources */,
+				BFF4B84E1FEA6B6D000890BF /* TextViewController.storyboard in Resources */,
+				BFF4B8501FEA6B6D000890BF /* PickerViewController.storyboard in Resources */,
 				BF131EB11FE39D6F006FEA5A /* LaunchScreen.storyboard in Resources */,
 				BF131EE31FE3AEA7006FEA5A /* Profile.storyboard in Resources */,
 				BF131EAE1FE39D6F006FEA5A /* Assets.xcassets in Resources */,
 				BF131EDD1FE3AE58006FEA5A /* Contacts.storyboard in Resources */,
+				BFF4B8571FEA6B6D000890BF /* ImageViewController.storyboard in Resources */,
+				BFF4B84F1FEA6B6D000890BF /* StackViewController.storyboard in Resources */,
+				BFF4B84D1FEA6B6D000890BF /* TextFieldViewController.storyboard in Resources */,
+				BFF4B84C1FEA6B6D000890BF /* DatePickerController.storyboard in Resources */,
+				BFF4B8511FEA6B6D000890BF /* SliderViewController.storyboard in Resources */,
+				BFF4B8591FEA6B6D000890BF /* StepperViewController.storyboard in Resources */,
+				BFF4B8581FEA6B6D000890BF /* WebViewController.storyboard in Resources */,
+				BFF4B8521FEA6B6D000890BF /* ActivityIndicatorViewController.storyboard in Resources */,
+				BFF4B8561FEA6B6D000890BF /* ButtonViewController.storyboard in Resources */,
+				BFF4B8531FEA6B6D000890BF /* SegmentedControlViewController.storyboard in Resources */,
 				BF131EDB1FE3AE21006FEA5A /* Chats.storyboard in Resources */,
 				BF131EE11FE3AE82006FEA5A /* Discover.storyboard in Resources */,
+				BFF4B8541FEA6B6D000890BF /* AlertControllerViewController.storyboard in Resources */,
+				BFF4B8551FEA6B6D000890BF /* ProgressViewController.storyboard in Resources */,
+				BFF4B85A1FEA6B6D000890BF /* PageControlViewController.storyboard in Resources */,
 				BF131EA91FE39D6F006FEA5A /* Main.storyboard in Resources */,
+				BFF4B85B1FEA6B6D000890BF /* SwitchViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,16 +445,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF4B8761FEA6BB3000890BF /* ProgressViewController.swift in Sources */,
+				BFF4B8791FEA6BB3000890BF /* SegmentedControlViewController.swift in Sources */,
 				BF131ED51FE3A268006FEA5A /* BFSTemplateViewController.swift in Sources */,
 				BF131EEE1FE3BFAE006FEA5A /* BFSFeedsViewController.swift in Sources */,
+				BFF4B8731FEA6BB3000890BF /* ImageViewController.swift in Sources */,
+				BFF4B87A1FEA6BB3000890BF /* TextViewController.swift in Sources */,
 				BF131EF21FE3CEEC006FEA5A /* BFSDiscoverViewController.swift in Sources */,
+				BFF4B8741FEA6BB3000890BF /* WebViewController.swift in Sources */,
+				BFF4B87B1FEA6BB3000890BF /* ButtonViewController.swift in Sources */,
+				BFF4B86D1FEA6BB3000890BF /* StackViewController.swift in Sources */,
+				BFF4B86C1FEA6BB3000890BF /* PickerViewController.swift in Sources */,
+				BFF4B8751FEA6BB3000890BF /* PageControlViewController.swift in Sources */,
 				BF131EAC1FE39D6F006FEA5A /* BaseFrameDemo_Swift.xcdatamodeld in Sources */,
+				BFF4B8701FEA6BB3000890BF /* AlertControllerViewController.swift in Sources */,
 				BF131EF41FE3CF05006FEA5A /* BFSProfileViewController.swift in Sources */,
+				BFF4B8711FEA6BB3000890BF /* TextFieldViewController.swift in Sources */,
+				BFF4B8781FEA6BB3000890BF /* ActivityIndicatorViewController.swift in Sources */,
 				BF131EF01FE3BFD1006FEA5A /* BFSContactsViewController.swift in Sources */,
+				BFF4B86F1FEA6BB3000890BF /* StepperViewController.swift in Sources */,
+				BFF4B8771FEA6BB3000890BF /* SliderViewController.swift in Sources */,
 				BF131EA61FE39D6F006FEA5A /* ViewController.swift in Sources */,
 				BF131EA41FE39D6F006FEA5A /* AppDelegate.swift in Sources */,
 				BF131EEC1FE3B104006FEA5A /* BFSChatsViewController.swift in Sources */,
 				BF131EE61FE3B090006FEA5A /* BFSViewController.swift in Sources */,
+				BFF4B86E1FEA6BB3000890BF /* SwitchViewController.swift in Sources */,
+				BFF4B8721FEA6BB3000890BF /* DatePickerController.swift in Sources */,
 				BF131EEA1FE3B0C6006FEA5A /* BSWTabBarController.swift in Sources */,
 				BF131EE91FE3B0C6006FEA5A /* BFSNavigationController.swift in Sources */,
 			);

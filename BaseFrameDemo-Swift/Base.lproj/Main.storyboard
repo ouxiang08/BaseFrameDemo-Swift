@@ -84,7 +84,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="NML-BU-x6k">
             <objects>
-                <tabBarController id="0ir-Ab-MeR" customClass="BSWTabBarController" customModule="BaseFrameDemo_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainTabBarController" id="0ir-Ab-MeR" customClass="BSWTabBarController" customModule="BaseFrameDemo_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uuN-0e-YMN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
